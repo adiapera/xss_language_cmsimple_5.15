@@ -5,8 +5,10 @@
 
 **Description:** Cross-site scripting (XSS) vulnerability in the Language section of the Settings menu of CMSimple 5.15 allow attackers to execute arbitrary web scripts or HTML via a crafted payload injected into multiple parameters.
 
+**CVE:** CVE-2024-32344, CVE-2024-32345, X y X.
+
 ## PoC
-### Edit parameter (Action)
+### Edit parameter (Action) (CVE-2024-32344)
 1. Enter to Language section of the Settings menu:
 
 ![image](https://github.com/adiapera/xss_language_cmsimple_5.15/assets/165512291/6036e7d4-899f-4dc4-9aa6-a60c859718b2)
@@ -23,7 +25,7 @@
 
 ![image](https://github.com/adiapera/xss_language_cmsimple_5.15/assets/165512291/5fe39eee-c246-4aa8-abed-7bf7ea51f9fa)
 
-### Configuration parameter (Adminmenu)
+### Configuration parameter (Adminmenu) (CVE-2024-32345)
 1. Enter to Language section of the Settings menu:
 
 ![image](https://github.com/adiapera/xss_language_cmsimple_5.15/assets/165512291/6036e7d4-899f-4dc4-9aa6-a60c859718b2)
@@ -40,7 +42,7 @@
 
 ![image](https://github.com/adiapera/xss_language_cmsimple_5.15/assets/165512291/8e54abd2-cd96-429e-8160-6f1ef4c07953)
 
-### Downloads parameter (Adminmenu)
+### Downloads parameter (Adminmenu) ()
 1. Enter to Language section of the Settings menu:
 
 ![image](https://github.com/adiapera/xss_language_cmsimple_5.15/assets/165512291/6036e7d4-899f-4dc4-9aa6-a60c859718b2)
@@ -58,7 +60,7 @@
 ![image](https://github.com/adiapera/xss_language_cmsimple_5.15/assets/165512291/bef1bb69-1c1c-4af3-ae4b-0fe60f736bfa)
 
 
-### Logout parameter (Adminmenu)
+### Logout parameter (Adminmenu) ()
 1. Enter to Language section of the Settings menu:
 
 ![image](https://github.com/adiapera/xss_language_cmsimple_5.15/assets/165512291/6036e7d4-899f-4dc4-9aa6-a60c859718b2)
