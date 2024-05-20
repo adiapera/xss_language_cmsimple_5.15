@@ -1,7 +1,7 @@
 # XSS in CMSimple 5.15 (Settings -> Language)
 **Software link:** CMSimple 5.15 [https://www.cmsimple.org/en/?Downloads___CMSimple]
 
-**@author:** Antonio Díaz.
+**@author:** Antonio Díaz Pérez.
 
 **Description:** Cross-site scripting (XSS) vulnerability in the Language section of the Settings menu of CMSimple 5.15 allow attackers to execute arbitrary web scripts or HTML via a crafted payload injected into multiple parameters.
 
